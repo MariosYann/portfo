@@ -342,7 +342,7 @@
                      <div class="portfolio-text">
                          <h2>The Greek Hangman</h2>
                          <p>I have made a greek classic hangman game, with greek words, stages, and rewards, all using python, it even features an tkinter GUI!</p>
-                         <div class="button"><a href="https://github.com/MarioSuperFui/Python-Games"><button><span class="index"> View Project<i class="gg-arrow-right"></i></span></button></a></div>
+                         <div class="button"><a href="#"><button><span class="index"> View Project<i class="gg-arrow-right"></i></span></button></a></div>
                      </div>
                  </div>
                  <div class="portfolio portfolio-second">
@@ -364,7 +364,7 @@
                         <h2>Password Integrity Checker</h2>
                         <p>Another fun project with API's integration again a few methods in python managed to configure cryptography in this one.
                              everyone can check if their passwords have been leaked!</p>
-                        <div class="button"><a href="https://github.com/MarioSuperFui/pwnedpass"><button><span class="index"> View Project<i class="gg-arrow-right"></i></span></button></a></div>
+                        <div class="button"><a href="#"><button><span class="index"> View Project<i class="gg-arrow-right"></i></span></button></a></div>
                     </div>
                 </div>
                 <div class="portfolio portfolio-fourth">
@@ -372,9 +372,9 @@
                         <img src="./static/images/portfolio-fourth.jpg" alt="portfolio-fourth">
                     </div>
                     <div class="portfolio-text">
-                        <h2>Google News Web Scraper</h2>
-                        <p>By using google rss feed i made web scraper feeding everydays news like a local newspaper!</p>
-                        <div class="button"><a href="https://github.com/MarioSuperFui/PythonWebProjects"><button><span class="index"> View Project<i class="gg-arrow-right"></i></span></button></a></div>
+                        <h2>Image Editing Software</h2>
+                        <p>Using python libraries i managed to make a software which alters everythin in an image!</p>
+                        <div class="button"><a href="#"><button><span class="index"> View Project<i class="gg-arrow-right"></i></span></button></a></div>
                     </div>
                 </div>
                  </div>
@@ -422,23 +422,22 @@
          <div class="contact-header">Contact <span class="color"> Me</span>
         <div class="contact-header-caption"> <span class="color"> Get</span> In Touch.</div></div>
         <div class="contact-content">
-            <!--Contact form-->
-             <div class="contact-form">
-                 <div class="form-header">
-                     Message Me
-                 </div>
-                 <form id="myForm" action="submit_form" method="post">
-                    <div class="input-line">
-                        <input  id="name" type="text" placeholder="Name" class="input-name" required>
-                        <input id="email" type="email" placeholder="Email"  class="input-name" required>
-                    </div>
-                    <input type="text" id="subject" placeholder="subject" class="input-subject" required>
-                    <textarea id ="body" class="input-textarea" placeholder="message" required></textarea>
-                    <button type="submit" id ="submit" value="send">Submit</button>
-                 </form>
-               
-             </div>
-            <!--Contact form-->
+           <!--Contact form-->
+<div class="contact-form">
+    <div class="form-header">
+        Message Me
+    </div>
+    <form id="myForm" action="submit_form" method="post" autocomplete="on">
+        <div class="input-line">
+            <input id="name" name="name" type="text" placeholder="Name" class="input-name" required>
+            <input id="email" name="email" type="email" placeholder="Email" class="input-name" required>
+        </div>
+        <input type="text" id="subject" name="subject" placeholder="Subject" class="input-subject" required>
+        <textarea id="body" name="message" class="input-textarea" placeholder="Message" required></textarea>
+        <button type="submit" id="submit" value="send">Submit</button>
+    </form>
+</div>
+<!--Contact form-->
             <!--Contact information-->
              <div class="contact-info">
                 <div class="contact-info-header">
